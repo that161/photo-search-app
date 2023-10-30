@@ -1,0 +1,49 @@
+
+.App {
+  text-align: center;
+  margin: 2rem;
+}
+
+input[type="text"] {
+  width: 70%; 
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #007bff; 
+  color: white; 
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.photo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-list img {
+  max-width: 100%;
+  height: auto;
+  margin: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-size: 20px;
+}
+
+.loading .fa-spinner {
+  color: #007bff; 
+  font-size: 2rem; 
+}
+
